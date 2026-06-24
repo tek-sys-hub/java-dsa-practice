@@ -1,8 +1,9 @@
 public class binarysearch {
-    public static void main(String[] args) {
-        int[] arr = {5,6,8,11,45,159}; // binary search only works in sorted array
+    static void main(String[] args) {
+        int[] arr = {-2 , -1, 0, 5,6,8,11,45,159}; // binary search only works in sorted array
 
-        int target = 11;
+        int target = -1;// Prints the index
+        // int target = -9; // prints -1 which means value does not exist
 
         int ans = check(arr , target);
 
@@ -21,7 +22,7 @@ public class binarysearch {
                 int mid = start + (end - start) / 2;
 
                 if (target == arr[mid]) {
-                    // ans found
+                    // answer found
                     return mid;
                 }else if (target < arr[mid]) {
                     end = mid - 1;
