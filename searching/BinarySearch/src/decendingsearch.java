@@ -1,17 +1,19 @@
-public class binarysearch {
-    static void main(String[] args) {
-        int[] arr = {-2, -1, 0, 5, 6, 8, 11, 45, 159}; // binary search only works in sorted array
+// this will search given number in the decending sorted array..
 
-        int target = -1;// Prints the index
+public class decendingsearch {
+    static void main(String[] args) {
+        int[] arr = {159,145,140,120,115,95,90,58,45,25,5,0,-1,-2,-3}; // binary search only works in sorted array
+
+        int target = 140;// Prints the index
         // int target = -9; // prints -1 which means value does not exist
 
-        int ans = check(arr, target);
+        int ans = check(arr , target);
 
         System.out.println("Number is at the index of " + ans);
     }
 
     //If the element does not exist return -1
-    static int check(int[] arr, int target) {
+    static int check (int[] arr , int target) {
         int start = 0;
         int end = arr.length - 1;
 
@@ -24,9 +26,9 @@ public class binarysearch {
             if (target == arr[mid]) {
                 // answer found
                 return mid;
-            } else if (target < arr[mid]) {
+            }else if (target > arr[mid]) {
                 end = mid - 1;
-            } else {
+            }else {
                 start = mid + 1;
             }
         }
