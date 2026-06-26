@@ -25,6 +25,6 @@ public class Main {
                 start = mid + 1;
             }
         }
-        return end;
+        return end; // Return end for the exact floor of the number`
     }
 }
