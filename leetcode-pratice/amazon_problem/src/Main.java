@@ -1,19 +1,39 @@
 public class Main {
 
-    // Q : Assume you have infinite number of sortred array and you need to search in it ?
+    // Q : Find Position of an element in a sorted array of infinite numbers ?
+    // We can't use .length to find the length
+    // Assuming we don't know the size of array
 
     public static void main(String[] args) {
 
-        int[] arr = {1,3,5,8,9,44,46,47,49,50,52,59,62,68,72,78};
-        int target = 9;
+        int[] arr = {1,5,9,10,15,41,65,88,89,90,92,95,96,102,202,333};
+        int target = 15;
 
-        System.out.println(check(arr , target));
+        int ans = range(target ,arr);
+
+        System.out.println(ans);
 
     }
-    static int check (int[] arr, int target) {
+    static int range (int target , int[] arr) {
+        // Find the range
+        // Start with the box of size 2
 
         int start = 0;
-        int end = arr.length - 1;
+        int end = 1;
+
+        // Condition for the taget to lie in the chunk
+
+        while (target > arr[end]) {
+            // new start becomes
+            int newStart = end + 1;
+            // end becomes double the chunk size
+
+            end = end + (end - start + 1) * 2;
+            start = newStart;
+        }
+        return check(arr,target,start,end);
+    }
+    static int check (int[] arr, int target , int start , int end ) {
         while (start <= end) {
             int mid = start + (end - start) /2;
 
