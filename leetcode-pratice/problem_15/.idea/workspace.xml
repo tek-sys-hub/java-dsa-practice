@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3de1b208-47b6-45a3-aa76-49f5d7fcd5c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../amazon_problem/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon_problem/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +12,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3FrA103d9x0z1lXdnqqa7mxvTMf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,8 +29,11 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tekra/Documents/java-dsa-practice/leetcode-pratice/amazon_problem",
-    "onboarding.tips.debug.path": "/home/tekra/Documents/java-dsa-practice/leetcode-pratice/problem_15/src/Main.java"
+    "last_opened_file_path": "/home/tekra/Documents/java-dsa-practice/leetcode-pratice/problem744",
+    "onboarding.tips.debug.path": "/home/tekra/Documents/java-dsa-practice/leetcode-pratice/problem_15/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="TaskManager">
