@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/problem704/problem704.iml" filepath="$PROJECT_DIR$/problem704/problem704.iml" />
       <module fileurl="file://$PROJECT_DIR$/problem744/problem744.iml" filepath="$PROJECT_DIR$/problem744/problem744.iml" />
       <module fileurl="file://$PROJECT_DIR$/problem852/problem852.iml" filepath="$PROJECT_DIR$/problem852/problem852.iml" />
+      <module fileurl="file://$PROJECT_DIR$/problem_240/problem_240.iml" filepath="$PROJECT_DIR$/problem_240/problem_240.iml" />
       <module fileurl="file://$PROJECT_DIR$/rotationcount/rotationcount.iml" filepath="$PROJECT_DIR$/rotationcount/rotationcount.iml" />
     </modules>
   </component>

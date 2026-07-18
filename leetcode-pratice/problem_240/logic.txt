@@ -1,0 +1,3 @@
+If current == target → found it, return true.
+If current < target (the cell's value is smaller than target) → move row++ (go down).
+If current > target (the cell's value is bigger than target) → move col-- (go left).
