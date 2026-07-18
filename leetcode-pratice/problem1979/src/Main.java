@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+// https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/?envType=daily-question&envId=2026-07-18
+
 public class Main {
     public static void main(String[] args) {
 
