@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/amazon_problem/amazon_problem.iml" filepath="$PROJECT_DIR$/amazon_problem/amazon_problem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/leetcode-pratice.iml" filepath="$PROJECT_DIR$/.idea/leetcode-pratice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/problem1979/problem1979.iml" filepath="$PROJECT_DIR$/problem1979/problem1979.iml" />
+      <module fileurl="file://$PROJECT_DIR$/problem33/problem33.iml" filepath="$PROJECT_DIR$/problem33/problem33.iml" />
+      <module fileurl="file://$PROJECT_DIR$/problem34/problem34.iml" filepath="$PROJECT_DIR$/problem34/problem34.iml" />
+      <module fileurl="file://$PROJECT_DIR$/problem410/problem410.iml" filepath="$PROJECT_DIR$/problem410/problem410.iml" />
+      <module fileurl="file://$PROJECT_DIR$/problem744/problem744.iml" filepath="$PROJECT_DIR$/problem744/problem744.iml" />
+      <module fileurl="file://$PROJECT_DIR$/problem852/problem852.iml" filepath="$PROJECT_DIR$/problem852/problem852.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rotationcount/rotationcount.iml" filepath="$PROJECT_DIR$/rotationcount/rotationcount.iml" />
+    </modules>
+  </component>
+</project>
